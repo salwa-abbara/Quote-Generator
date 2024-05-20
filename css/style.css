@@ -1,0 +1,43 @@
+body{
+    box-sizing: border-box;
+    color: #3a3845;
+    font-family: "Poetsen One", sans-serif;
+    
+}
+div{
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+
+
+}
+.header{
+    font-size: 80px;
+
+}
+p{
+    font-family: "Oswald", sans-serif;
+}
+.bg{
+    background-color: #ce9461;
+}
+.btn{
+    transition: all 0.1s ease-in;
+}
+.btn:hover{
+    background-color: #e8abab;
+}
+.quotes{
+    width: 450px;
+}
+@media screen and (max-width: 576px) {
+    .quotes{
+        width: 300px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .quotes{
+        width: 100%;
+    }
+}
+
